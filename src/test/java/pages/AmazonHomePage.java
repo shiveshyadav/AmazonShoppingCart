@@ -91,7 +91,7 @@ public class AmazonHomePage extends PageBase {
 	
 	public void setPincodeForDelivery(String pin) throws InterruptedException
 	{
-		wait(5);
+		wait(5); 
 		if(selectlocation.size() >0)
 		{
 			selectlocation.get(0).click();

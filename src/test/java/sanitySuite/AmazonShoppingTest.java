@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import base.TestBase;
 import junit.framework.Assert;
 import pages.AmazonHomePage;
+import pages.Config;
 
 
 
@@ -16,8 +17,8 @@ public class AmazonShoppingTest extends TestBase{
 	@Test (priority=1)	
 	public void AdditemtoCartandCheckout() throws InterruptedException {
 
-		driver.get("https://www.amazon.com/");
-		amazonhomepage.setPincodeForDelivery("94203");
+		driver.get(Config.URL);
+		amazonhomepage.setPincodeForDelivery(Config.PINCODE);
 		
 		isTrue=amazonhomepage.searchItemSortAndAddtocart("Snickers");
 		Assert.assertEquals(true, isTrue);
