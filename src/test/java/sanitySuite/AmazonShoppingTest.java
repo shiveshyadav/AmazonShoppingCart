@@ -1,24 +1,31 @@
 package sanitySuite;
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 
+import pages.ReadPropertyFile;
 import base.TestBase;
 import junit.framework.Assert;
 import pages.AmazonHomePage;
-import pages.Config;
-
 
 
 public class AmazonShoppingTest extends TestBase{
 
+	
 	AmazonHomePage amazonhomepage=new AmazonHomePage(driver);
 	boolean isTrue;
-
+	ReadPropertyFile props;
+	
+	public AmazonShoppingTest() throws IOException{
+		props = new ReadPropertyFile();
+	}
+	
 	@Test (priority=1)	
 	public void AdditemtoCartandCheckout() throws InterruptedException {
 
-		driver.get(Config.URL);
-		amazonhomepage.setPincodeForDelivery(Config.PINCODE);
+		driver.get(props.getURL());
+		amazonhomepage.setPincodeForDelivery(props.getPincode());
 		
 		isTrue=amazonhomepage.searchItemSortAndAddtocart("Snickers");
 		Assert.assertEquals(true, isTrue);

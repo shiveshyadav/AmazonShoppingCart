@@ -38,7 +38,7 @@ public abstract class TestBase {
 		}
 	
 	
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public void tearDown() {
 		quitDriver();
 	}

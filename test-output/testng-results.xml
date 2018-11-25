@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test" duration-ms="135395" started-at="2018-11-01T10:32:14Z" finished-at="2018-11-01T10:34:29Z">
+  <suite name="Test" duration-ms="112077" started-at="2018-11-25T09:21:14Z" finished-at="2018-11-25T09:23:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="135395" started-at="2018-11-01T10:32:14Z" finished-at="2018-11-01T10:34:29Z">
+    <test name="Default test" duration-ms="112077" started-at="2018-11-25T09:21:14Z" finished-at="2018-11-25T09:23:06Z">
       <class name="sanitySuite.AmazonShoppingTest">
-        <test-method status="PASS" signature="AdditemtoCartandCheckout()[pri:0, instance:sanitySuite.AmazonShoppingTest@65c7a252]" name="AdditemtoCartandCheckout" duration-ms="135307" started-at="2018-11-01T16:02:14Z" finished-at="2018-11-01T16:04:29Z">
+        <test-method status="PASS" signature="AdditemtoCartandCheckout()[pri:0, instance:sanitySuite.AmazonShoppingTest@65c7a252]" name="AdditemtoCartandCheckout" duration-ms="112004" started-at="2018-11-25T14:51:14Z" finished-at="2018-11-25T14:53:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdditemtoCartandCheckout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:sanitySuite.AmazonShoppingTest@65c7a252]" name="tearDown" is-config="true" duration-ms="993" started-at="2018-11-01T16:04:29Z" finished-at="2018-11-01T16:04:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sanitySuite.AmazonShoppingTest@65c7a252]" name="tearDown" is-config="true" duration-ms="836" started-at="2018-11-25T14:53:06Z" finished-at="2018-11-25T14:53:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
