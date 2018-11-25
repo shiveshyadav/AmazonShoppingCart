@@ -4,7 +4,7 @@
   <groupId>webdriver.sample.test</groupId>
   <artifactId>webdriversample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Archetype - webdriversample</name>
+  <name>Amazon-shopping-cart</name>
   <url>http://maven.apache.org</url>
    <dependencies>
 		<dependency>

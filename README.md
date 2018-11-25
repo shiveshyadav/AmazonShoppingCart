@@ -4,7 +4,7 @@ Selenium WebDriver test for Amazon.com
 Description : 
 As a user I want to search sweet on amazon.com so I can find my preferred brand.
 
-Functions :
+Test Scenario :
 
 - Open “amazon.com“
 - Use the search to check for “Snickers“ , „Twix“
@@ -15,5 +15,3 @@ your Cart.
 - When I am not logged in I expect to be
 redirected to the Sign In page as soon as I
 „Proceed to Checkout.“
-
-Note : Currently It is automated for chrome browser.
