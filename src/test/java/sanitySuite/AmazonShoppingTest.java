@@ -3,12 +3,12 @@ package sanitySuite;
 import java.io.IOException;
 import org.testng.annotations.Test;
 import pages.ReadPropertyFile;
-import base.TestBase;
+import base.SharedSteps;
 import junit.framework.Assert;
 import pages.AmazonHomePage;
 
 
-public class AmazonShoppingTest extends TestBase{
+public class AmazonShoppingTest extends SharedSteps{
 
 	
 	AmazonHomePage amazonhomepage=new AmazonHomePage(driver);

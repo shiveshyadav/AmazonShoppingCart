@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
-import base.PageBase;
+import base.BasePage;
 
 
-public class AmazonHomePage extends PageBase {
+public class AmazonHomePage extends BasePage {
 
 	public AmazonHomePage(WebDriver driver) {
 		super(driver);

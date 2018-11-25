@@ -7,16 +7,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import java.util.concurrent.TimeUnit;
 
-public abstract class TestBase {
+public abstract class SharedSteps {
 	private static boolean isInitalized=false;
 	public static WebDriver driver = null;
 	public static WebDriverWait wait = null;
 
-	protected TestBase() {
+	protected SharedSteps() {
 		if(!isInitalized){
 			initDriver();
 		}
 	}
+	
 	private static void initDriver(){
 
 		
@@ -37,5 +38,7 @@ public abstract class TestBase {
 	public static void quitDriver() {
 		driver.quit();
 	}
+	
+	
 
 }
