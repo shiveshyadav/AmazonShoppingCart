@@ -1,9 +1,7 @@
 package sanitySuite;
 
 import java.io.IOException;
-
 import org.testng.annotations.Test;
-
 import pages.ReadPropertyFile;
 import base.TestBase;
 import junit.framework.Assert;
